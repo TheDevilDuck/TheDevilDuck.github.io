@@ -32,7 +32,7 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top"><img id="menulogo" src="img\LogoTransparent.png"></a>
+        <a class="js-scroll-trigger" href="#page-top"><img id="menulogo" src="img/LogoTransparent.png" alt="SoloBrows logo"></a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -75,7 +75,7 @@
         <div class="col-lg-10 mx-auto">
           <h1>Meet the Artist</h1>
           <div class="card">
-            <img class="card-img-top" src="img\Nancy-Munich.jpg" alt="Nancy in Munich">
+            <img class="card-img-top" src="img/Nancy-Munich.jpg" alt="Nancy in Munich">
             <div class="card-body">
               <p class="card-text">Nancy was born and raised in central Mexico.  She is the proud owner of two university degrees--one in psychology and the other in law.  But after moving to the United States in 2016, she discovered that beauty is her true passion.  She loves making women feel beautiful, and for that reason she has spent the last few years perfecting her microblading technique on clients from all over the northwest.  She is a licensed tattoo artist in Oregon, and looks forward to helping you discover your most beautiful look!</p>
             </div>
@@ -162,10 +162,10 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img\Natural.jpg" alt="Before" width="1100" height="500">
+                <img src="img/Natural.jpg" alt="Before" width="1100" height="500">
               </div>
               <div class="carousel-item">
-                <img src="img\After.jpg" alt="After" width="1100" height="500">
+                <img src="img/After.jpg" alt="After" width="1100" height="500">
               </div>
               
             </div>
@@ -181,26 +181,94 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
-  
-
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white" id="cta">
     <div class="container text-center">
       <h2 class="mb-4">You deserve this, girl!</h2>
-      <img id="booklogo" src="img\LogoTransparent.png">
+      <img id="booklogo" src="img/LogoTransparent.png" alt="SoloBrows logo">
       <a class="btn btn-primary btn-xl" href="https://stxcloud.com/#/clientlogin/stx_04796" target="_blank">Book Now</a>
+    </div>
+    <div class="contact-form">
+      <p id="notready">If you're not quite ready to book, but would like more information--por favor submit the form below and I'll be in touch--usually within 24 hours.</p>
+      <form>
+        <div class="form-group row">
+          <label for="inputname" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input required type="text" class="form-control" id="inputname" placeholder="Name">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name= "email" required placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputphone" class="col-sm-2 col-form-label">Phone</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" id="inputphone" placeholder="Your digits">
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">I'm interested in</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Microblading
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Powder
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Hybrid
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                <label class="form-check-label" for="gridRadios4">
+                  Henna
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-group row">
+          <div class="col-sm-2">Referred by Urban Stylist</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Yes
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
     </div>
   </section>
 
   <!-- Map -->
   <section id="contact" class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0385643252234!2d-122.57996618418127!3d45.42872394383058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495759eaf1f3935%3A0x8b50632027cc1200!2sUrban%20Colorz%20Salon!5e0!3m2!1sen!2sus!4v1588310252898!5m2!1sen!2sus" width=100%; height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <h2 id="where">Where To Find Me</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0385643252234!2d-122.57996618418127!3d45.42872394383058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495759eaf1f3935%3A0x8b50632027cc1200!2sUrban%20Colorz%20Salon!5e0!3m2!1sen!2sus!4v1588310252898!5m2!1sen!2sus" width=100%; height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
+    <p id="socialinvite">For more photos and information, plus all the latest--please visit me on Facebook and/or Instagram by using the links below ⬇⬇⬇</p>  
+  
+    
   </section>
 
   <!-- Footer -->

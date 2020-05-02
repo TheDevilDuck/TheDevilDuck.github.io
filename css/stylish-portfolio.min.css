@@ -46,7 +46,7 @@
  
  h1,
  h2 {color: lightslategray;
-      font-weight: 700;},
+      font-weight: 700;}
  h3,
  h4,
  h5,
@@ -431,4 +431,30 @@
   width: 100%;
   height: 100%;
 }
+
+#notready {
+  text-align: center;
+  font-size: 1.25rem;
+}
  
+.contact-form {
+  padding: 5rem 2rem;
+}
+
+#survey {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#where {
+  text-align: center;
+  padding: 2rem 0 0;
+}
+
+#socialinvite {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 2rem 0 0;
+  font-weight: 750;
+  color: lightslategray;
+}

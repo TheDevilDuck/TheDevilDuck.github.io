@@ -33,11 +33,11 @@
    text-transform: uppercase;
  }
  .page-title {
-     color: pink;
-     background-color:none;
-     vertical-align: top;
-     text-align: left;
-      }
+   color: pink;
+   background-color:none;
+   vertical-align: top;
+   text-align: left;
+ }
 
  .page-sub-title {
      color: white;

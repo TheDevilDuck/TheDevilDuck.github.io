@@ -252,8 +252,8 @@
  }
  
  .card-text {
-     font-size: 11;
-     color: white;
+  font-size: 11;
+  color: white;
       }
 
  .callout {
@@ -449,12 +449,4 @@
 #where {
   text-align: center;
   padding: 2rem 0 0;
-}
-
-#socialinvite {
-  text-align: center;
-  font-size: 1.25rem;
-  padding: 2rem 0 0;
-  font-weight: 750;
-  color: lightslategray;
 }

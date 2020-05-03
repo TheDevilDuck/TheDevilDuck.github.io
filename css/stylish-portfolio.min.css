@@ -37,7 +37,7 @@
    background-color:none;
    vertical-align: top;
    text-align: left;
- }
+  }
 
  .page-sub-title {
      color: white;
@@ -416,7 +416,7 @@
  }
  
  .bg-primary {
-   background-color: rgb(219, 171, 180) !important;
+   background-color: rgb(243, 181, 191) !important;
  }
  
  .text-primary {

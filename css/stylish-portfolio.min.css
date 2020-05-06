@@ -275,13 +275,13 @@
 }
 
 #booknow {
-  width: 40%;
+  width: 60%;
   margin: auto;
   margin-bottom: 1rem;
 }
 
 #buygiftcards {
-  width: 40%;
+  width: 60%;
   margin: auto;
 }
 
@@ -448,9 +448,7 @@
 #logo-buttons {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
-  
-}
+  }
 
 #notready {
   text-align: center;
